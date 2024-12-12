@@ -2,37 +2,68 @@ body.col{
     background-color: burlywood;
 }
 
-header.cent{
+header.head{
     text-align: center;
 }
-nav.col{
-    background-color: cadetblue;
-    text-align: center;
+
+img.img{
+width: 175px;
+height: 175px;
 }
 
 div.div1{
-    background-color: greenyellow;
+    text-align: center;
+    color: green;
+    background-color: cadetblue;
+}
+
+div.div2{
+    background-color: white;
+    border-top: 10px solid white;
+    border-bottom: 80px solid white;
+}
+
+div.div3{
+    float: left;
+}
+div.div4{
+    border-top: 20px solid blue;
+    border-bottom: 20px solid blue;
     color: blue;
 }
 
-ul.ul1{
-    list-style-type: disc;
+div.div5{
+    background-color: cadetblue;
+    border-top: 20px solid cadetblue;
+    border-bottom: 50px solid cadetblue;
+
+}
+img.img1{
+    float: right;
+    width: 150px;
+    height: 150px;
 }
 
-ol.ol2{
-    list-style-type: upper-roman;
+p{
+    font-size: large;
+
 }
-ol.ol3{
-    list-style-type: upper-latin;
+
+div.div6{
+    border-top: 20px solid red;
+    border-bottom: 20px solid red;
+    color: red;
 }
-p.p1{
+footer.center{
     text-align: center;
+}
+p.foot{
     font-weight: bold;
 }
-
 span.span1{
     background-color: yellow;
 }
+
 span.span2{
     text-decoration: line-through;
 }
